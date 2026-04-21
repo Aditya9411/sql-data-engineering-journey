@@ -18,7 +18,7 @@ A company is hiring for a Data Science role and wants to shortlist candidates wh
 
 ## SQL Solution
 
-sql
+```sql
 SELECT candidate_id
 FROM candidates
 WHERE skill IN ('Python', 'Tableau', 'PostgreSQL')
