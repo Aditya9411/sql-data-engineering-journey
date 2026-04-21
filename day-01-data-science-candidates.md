@@ -25,3 +25,16 @@ WHERE skill IN ('Python', 'Tableau', 'PostgreSQL')
 GROUP BY candidate_id
 HAVING COUNT(skill) = 3
 ORDER BY candidate_id;
+## Explanation
+
+- We first filter only the required skills (Python, Tableau, PostgreSQL)
+- Then group by candidate_id
+- Count how many required skills each candidate has
+- If count = 3 → candidate has all required skills
+
+## Interview Tip
+
+Use COUNT(DISTINCT skill) to handle duplicates safely:
+
+```sql
+HAVING COUNT(DISTINCT skill) = 3
