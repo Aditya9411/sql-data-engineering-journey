@@ -26,3 +26,7 @@ GROUP BY candidate_id
 HAVING COUNT(skill) = 3
 ORDER BY candidate_id;
 COUNT(DISTINCT skill) = 3
+
+## PySpark Version
+
+See: `pyspark/day-01-data-science-candidates.py`
