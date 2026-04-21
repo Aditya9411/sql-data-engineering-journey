@@ -28,4 +28,5 @@ ORDER BY candidate_id;
 COUNT(DISTINCT skill) = 3
 
 ## PySpark Version
-See: pyspark/day-01-data-science-candidates.py
+
+See: [PySpark Implementation](pyspark/day-01-data-science-candidates.py)
